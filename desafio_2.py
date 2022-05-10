@@ -1,16 +1,16 @@
 def RealToBitcoin(value):
   bitcoin = 182607.40 # current bitcoin value
 
-  total = value / 182607.40
+  total = value / bitcoin
 
-  print("Você irá ter: ", total, "reais. \n")
+  print("Você irá ter: ", total, "bitcoins. \n")
 
 def BitcoinToReal(value):
   bitcoin = 182607.40 # current bitcoin value
 
-  total = value * 182607.40
+  total = value * bitcoin
 
-  print("Você irá ter: ", total, " bitcoins. \n")
+  print("Você irá ter: ", total, " reais. \n")
 
 def Menu():
     print("CONVERSÃO DE CRIPTOMOEDAS \n")
